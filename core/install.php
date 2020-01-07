@@ -11,7 +11,7 @@ use Drupal\Component\Utility\OpCodeCache;
 chdir('..');
 // Store the Drupal root path.
 $root_path = realpath('');
-var_dump($root_path);
+
 /**
  * Global flag to indicate the site is in installation mode.
  *
